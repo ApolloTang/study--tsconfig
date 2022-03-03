@@ -1,0 +1,15 @@
+{
+  "name": "isolateModule",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "author": "Apollo Tang",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.6.2"
+  },
+  "scripts": {
+    "build": "rm -rf ./build && tsc",
+    "x": "node build/main.js"
+  }
+}
