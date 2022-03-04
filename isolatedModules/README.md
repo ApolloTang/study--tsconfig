@@ -79,7 +79,7 @@ console.log('fooType: ', fooType)  // <-- this is obviously a runtime error
 console.log('finished execution')
 ```
 
-By naming `foo` foo `fooType,` we can realize that we are using a type as a value and catch the possible problem earlier.
+By naming `foo` to  `fooType,` we can catch ourself making a mistake using a type as a value.
 
 
 
