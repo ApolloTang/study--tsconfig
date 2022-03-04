@@ -1,2 +1,5 @@
-export const someFunction = () => 'return of someFunction'
-export type foo = string
+const someFunction = () => 'return of someFunction'
+type foo = string
+
+export { someFunction }
+export { foo }
